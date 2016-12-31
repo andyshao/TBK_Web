@@ -1,0 +1,5 @@
+if (!-e $request_filename)
+{
+rewrite ^/(?!index\.php|uploadfiles|update|templates|apicache|install|cache|backup|js/|robots\.txt|google\.xml|sitemap_baidu\.xml|xtaoAuth\.txt|favicon\.ico|xtaoAuth\.html|root\.txt|bdunion\.txt|baidu_verify_pssAMHgs9r\.html)(.+)$ /index.php/$1 last;
+break;
+}

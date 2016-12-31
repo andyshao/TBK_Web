@@ -1,0 +1,6 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.76
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|uploadfiles|update|apicache|templates|install|cache|backup|js/|robots\.txt|google\.xml|sitemap_baidu\.xml|favicon\.ico|xtaoAuth\.txt|xtaoAuth\.html|root\.txt|bdunion\.txt|baidu_verify_pssAMHgs9r\.html)
+RewriteRule ^(.+)$ index.php/$1 [L]

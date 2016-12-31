@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	background: #FFFFFF url(../images/body-bg.jpg) no-repeat center top;
+	color:#444444;
+	padding:0px;
+	margin:0px;
+}
+div, ul, li, h1, h2, h3, p, dl, dt, dd, form, ol{margin:0; padding:0;}
+img{ border:none; padding:0px; margin:0px; line-height:1px;}
+.f_l{float:left;}
+.f_r{float:right;}
+a {color:#444444; text-decoration:none}
+a:hover {color:#dd0000; text-decoration:underline}
+/*垂直居中*/
+.bg { width:584px; height:329px; text-align:left; margin:148px auto 0px auto; background: url(../images/bt.gif) no-repeat;}
+
+.bg2 { width:584px; height:329px; text-align:left; margin:148px auto 0px auto; background: url(../images/bt2.gif) no-repeat;}
+
+.login-kk01 {background:none; margin:0px; padding:0px; border:none; font-size:14px; color:#444444; width:138px; font-family:Arial, "宋体";}
+.login-kk02 {background:none; margin:0px; padding:0px; border:none; font-size:14px; color:#444444; width:46px; font-family:Arial, "宋体";}
+#bottom{padding:20px 0px 0px 90px; color:#9d9d9d; line-height:25px; text-align:center;color: #FFFFFF}
+#bottom a{color: #FFFFFF}
